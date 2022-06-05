@@ -1,0 +1,184 @@
+﻿@media screen and (max-width: 760px) {
+
+    header {
+        height: 376px;
+        padding-top: 16px;
+    }
+    header .container{
+        width: 340px;
+        margin: 0 auto;
+    }
+   header .container:first-child{
+       width: 100%;
+       margin: 0 auto;
+       padding: 0 16px;
+       box-sizing: border-box;
+   }
+    header .container:last-child{
+        padding-top: 28px;
+        background: none;
+
+    }
+    header .container:last-child div{
+        width: 343px;
+        margin: 0 auto;
+        text-align: center;
+    }
+     
+    header h1{
+        font-size: 32px;
+        line-height: 38px;
+        padding: 0 10px;
+   
+    }
+    header .container p{
+        padding-top: 12px;
+        width: 343px;
+    
+    }
+    header .button{
+        padding-top: 32px;
+
+    }
+    .button a{
+        flex: none;
+        width: 108px;
+        height: 28px;
+        background: none;
+        box-shadow: none;
+        border-radius: none;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    
+    main {
+        margin: 48px auto 64px;
+        width: 343px;
+    }
+    
+    h2{
+
+        font-size: 24px;
+        line-height: 28px;
+    
+    }
+    
+    .main__cont__first {
+        margin: 32px auto 0;
+    }    
+
+    .main__block{
+        width: 336px;
+        height: 457px;
+        padding: 40px 30px;
+        margin-bottom: 32px;
+    }
+    .first {
+        background-image: url(../img/leftmuzh.png);
+    }
+    .second {
+        background-image: url(../img/muzhik-img.png);   
+    }
+    .third {
+        background-image: url(../img/rightzhen.png);
+    }
+    
+    .main__cont__second {
+        justify-content: center;
+        width: 343px;
+        gap: 16px;
+        grid-template-rows: repeat(4, max-content);
+    }
+    .main__cont__second p{
+        width: 343px;
+        text-align: center;
+    }
+    .main__cont__second .top{
+        width: 343px;
+        height: 145px;
+        background-image: url(../img/tophall.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 16px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+    .main__cont__second .left{
+        background-image: url(../img/leftphone.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 255px;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px;
+        grid-column: 1/3;
+    
+    }
+    .main__cont__second .right{
+        background-image: url(../img/rightmash.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 255px;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 16px;
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+    
+
+    footer .container {
+        margin: 0 auto;
+        width: 340px;
+        padding: 32px 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    footer h3 {
+        margin: -14px 0 32px;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    footer p {
+        width: 100%;
+    }
+    footer button {
+        float: none;
+        width: 108px;
+        height: 31px;
+        margin: 40px auto 8px;
+    }
+    footer li {
+        padding-left: 39px;
+    }
+    footer li + li {
+        margin-top: 18px;
+    }
+    footer li br {
+        display: inline;
+    }
+    footer li::before {
+        display: block;
+        position: absolute;
+        left: 16px;
+        top: 0;
+        content: '2.';
+    }
+    footer li:first-child::before {
+        content: '1.';
+    }
+    footer li:last-child::before {
+        content: '3.';
+    }
+    .copy {
+        margin-top: 32px;
+    }
+}
