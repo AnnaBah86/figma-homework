@@ -113,12 +113,12 @@
 	  flex: 1 1 auto;
   }
 
-  .main_otec {
+main  .container {
     display: flex;
     flex-flow: row wrap;
     margin: 57px auto 96px;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     box-sizing: border-box;
     padding: 0 110px;
   }
@@ -129,10 +129,11 @@
       justify-content: flex-end;
       width: 301px;
       height: 668px;
+	  padding-right: 99px;
       margin-top: 78px;
       background-image: url(../img/leftzhen.png);
       background-repeat: no-repeat;
-      background-position: center top
+      background-position: left top
   }
 
   h3{
