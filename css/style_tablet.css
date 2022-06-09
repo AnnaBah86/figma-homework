@@ -31,8 +31,7 @@
       }
       
       header .container p{
-          width: 368px;
-      
+          width: 425px;  
       }
       
       main {
@@ -63,7 +62,6 @@
           width: 704px;
           grid-template-rows: max-content max-content 297px 253px;
           margin-top: 32px;
-
       }
 
       .main__cont__second p{
@@ -72,7 +70,6 @@
       .main__cont__second .top{
           height: 297px;
           background-size: contain;
-
       }
       .main__cont__second .left{
           height: 253px;
@@ -84,7 +81,6 @@
         height: 253px;
         padding: 20px;
         background-size: contain;
-
       }
       
       footer .container {
