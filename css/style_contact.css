@@ -207,7 +207,8 @@ main  .container {
 
   input[type='email'], input[type='text'], textarea{
       width: 428px;
-      box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+      /*box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);*/
+	  border: 1px solid #E5E5E5;
       border-radius: 10px;
       padding: 21px 26px 21px 26px;
       margin-top: 8px;
